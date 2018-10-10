@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database2", "Database2\Database2.sqlproj", "{B9C152F0-C756-4AC6-A1FE-8E4D15B72DEB}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Buy_20180928", "Database2\Buy_20180928.sqlproj", "{B9C152F0-C756-4AC6-A1FE-8E4D15B72DEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
