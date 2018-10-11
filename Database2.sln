@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Buy_20180928", "Database2\Buy_20180928.sqlproj", "{B9C152F0-C756-4AC6-A1FE-8E4D15B72DEB}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database3", "..\Database3\Database3\Database3.sqlproj", "{445FDF59-8F9D-4CEE-914E-1457F7CCACA6}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Buy", "..\Database3\Database3\Buy.sqlproj", "{445FDF59-8F9D-4CEE-914E-1457F7CCACA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

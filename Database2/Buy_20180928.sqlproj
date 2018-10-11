@@ -278,4 +278,28 @@
     <Build Include="presale\Sequences\PresaleStockNumberSequence.sql" />
     <Build Include="dbo\Tables\_Table1.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="Buy">
+      <DefaultValue>Buy</DefaultValue>
+      <Value>$(SqlCmdVar__2)</Value>
+    </SqlCmdVariable>
+    <SqlCmdVariable Include="Database3">
+      <DefaultValue>Buy</DefaultValue>
+      <Value>$(SqlCmdVar__1)</Value>
+    </SqlCmdVariable>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Database3\Database3\Buy.sqlproj">
+      <Name>Buy</Name>
+      <Project>{445fdf59-8f9d-4cee-914e-1457f7ccaca6}</Project>
+      <Private>True</Private>
+      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
+      <DatabaseSqlCmdVariable>Buy</DatabaseSqlCmdVariable>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Database3\Database3\Buy.sqlproj">
+      <Name>Buy</Name>
+      <Project>{445fdf59-8f9d-4cee-914e-1457f7ccaca6}</Project>
+      <Private>True</Private>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
